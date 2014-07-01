@@ -18941,7 +18941,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C7" library="resistor" deviceset="C-EU" device="050-024X044" value="0.1u"/>
 <part name="C8" library="resistor" deviceset="C-EU" device="050-024X044" value="0.1u"/>
 <part name="C9" library="resistor" deviceset="C-EU" device="050-024X044" value="0.1u"/>
-<part name="C10" library="resistor" deviceset="C-EU" device="050-024X044" value="0.2u"/>
+<part name="C10" library="resistor" deviceset="C-EU" device="050-024X044" value="0.1u"/>
 <part name="C11" library="resistor" deviceset="C-EU" device="050-024X044" value="0.1u"/>
 <part name="C12" library="resistor" deviceset="C-EU" device="050-024X044" value="0.1u"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
