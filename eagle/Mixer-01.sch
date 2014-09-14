@@ -15769,6 +15769,8 @@ DIN A4, landscape with extra doc field</description>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
+<part name="JP18" library="pinhead" deviceset="PINHD-1X1" device="" value="V-GND"/>
+<part name="GND20" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15890,6 +15892,8 @@ DIN A4, landscape with extra doc field</description>
 <instance part="GND17" gate="1" x="38.1" y="43.18"/>
 <instance part="GND18" gate="1" x="38.1" y="22.86"/>
 <instance part="GND19" gate="1" x="38.1" y="2.54"/>
+<instance part="JP18" gate="G$1" x="81.28" y="162.56"/>
+<instance part="GND20" gate="1" x="91.44" y="160.02"/>
 </instances>
 <busses>
 </busses>
@@ -16008,6 +16012,10 @@ DIN A4, landscape with extra doc field</description>
 <segment>
 <pinref part="R31" gate="G$1" pin="1"/>
 <pinref part="GND19" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="81.28" y1="162.56" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
